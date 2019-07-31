@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Data Management</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Employee Data Management</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg add-user" href="#" role="button">Submit</a></p>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Employee Name</h3>
+        </div>
+            <div class="panel-body">
+              First Name & Last Name 
+            </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+
+    <form>
+            <div class="form-group">
+                    <label for="jobRoleInput">Role</label>
+                    <input type="jobTitle" class="form-control" id="jobRoleInput" placeholder="Job Title">
+                  </div>
+                  <div class="form-group">
+                    <label for="jobRoleSelect">Starting Date</label>
+                    <select class="form-control" id="jobRoleSelect">
+                      <option>Jan 2019</option>
+                      <option>Feb 2019</option>
+                      <option>Mar 2019</option>
+                      <option>Apr 2019</option>
+                      <option>May 2019</option>
+                      <option>Jun 2019</option>
+                      <option>Jul 2019</option>
+                      <option>Aug 2019</option>
+                      <option>Sep 2019</option>
+                      <option>Oct 2019</option>
+                      <option>Nov 2019</option>
+                      <option>Dec 2019</option>
+                      
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="monthlyRateSelect">Monthly Rate</label>
+                    <select multiple class="form-control" id="monthlyRateSelect">
+                      <option>$$</option>
+                     
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="freeTextarea">Free Text</label>
+                    <textarea class="form-control" id="freeTextarea" rows="3"></textarea>
+                  </div>
+    </form>
+    <script>
+        const firebaseConfig = {
+        apiKey: "AIzaSyB-XOg48Piw0h3Z08WGDgmGXaiyJEmoGwc",
+        authDomain: "projectucsd-5ff85.firebaseapp.com",
+        databaseURL: "https://projectucsd-5ff85.firebaseio.com",
+        projectId: "projectucsd-5ff85",
+        storageBucket: "",
+        messagingSenderId: "97312050674",
+        appId: "1:97312050674:web:f1bc355bcc0ef28e"
+      };
+      </script>
+          
+          
+          
+          
+
+</body>
+</html>
